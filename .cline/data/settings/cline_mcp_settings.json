@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "engram": {
+      "transport": {
+        "type": "stdio",
+        "command": "engram",
+        "args": ["mcp", "--tools=agent"]
+      }
+    },
+    "codegraph": {
+      "transport": {
+        "type": "stdio",
+        "command": "codegraph",
+        "args": ["serve", "--mcp"]
+      }
+    }
+  }
+}
