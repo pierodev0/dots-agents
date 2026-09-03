@@ -22,7 +22,7 @@
         "mcp",
         "--tools=agent"
       ],
-      "command": "/home/linuxbrew/.linuxbrew/bin/engram"
+      "command": "engram"
     }
   }
 }
